@@ -1,9 +1,4 @@
-
-# Usage example: python gpu_exporter.py 9101 http://localhost:9101/metrics
-# Requirements:
-#   Python3
-#   apt install python3-pip intel-gpu-tools
-#   pip install prometheus_client subprocess
+# Usage example: python3 igpu_exporter.py 9101 http://localhost:9101/metrics
 
 from prometheus_client import start_http_server, Metric, REGISTRY
 import sys
