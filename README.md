@@ -1,7 +1,7 @@
 # iGPU-Node-Exporter
-A Python based node exporting Intel iGPU data for Prometheus.
+A Python based node, exporting Intel iGPU data for Prometheus.
 
-This has been made & tested for a Intel Xeon E3-1275v6 CPU.
+This has been made & tested on a Intel Xeon E3-1275v6 CPU.
 
 
 ## Requirements
