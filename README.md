@@ -26,6 +26,22 @@ Real use case example: `python3 igpu_exporter.py 9101 http://localhost:9101/metr
 4. Check the status with `systemctl status igpu_exporter.py`
 5. Add the service to run at boot with `systemctl enable igpu_exporter.py`
 
+#### Metric End Point data
+```
+# HELP igpu_video_busy  Video busy utilisation in %
+# TYPE igpu_video_busy summary
+igpu_video_busy 0.0
+# HELP igpu_render_busy Render busy utilisation in %
+# TYPE igpu_render_busy summary
+igpu_render_busy 0.0
+# HELP igpu_enhance_busy Enhance busy utilisation in %
+# TYPE igpu_enhance_busy summary
+igpu_enhance_busy 0.0
+# HELP igpu_power Power utilisation in W
+# TYPE igpu_power summary
+igpu_power 0.0
+```
+
 ### Prometheus configuration
 Please see `prometheus.yml`
 
