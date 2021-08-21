@@ -31,3 +31,4 @@ Please see `prometheus.yml`
 ## Required changes for you
  - Adapt path to script in `igpu_exporter.service`
  - Adapt http_service_metric_point in `igpu_exporter.service`
+ - Adapt the target in `prometheus.yml`
