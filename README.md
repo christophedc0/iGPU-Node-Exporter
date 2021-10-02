@@ -23,8 +23,8 @@ Real use case example: `python3 igpu_exporter.py 9101 http://localhost:9101/metr
 1. Try the script with the example above
 2. Add the service file to `/etc/systemd/system/`
 3. Test the service with `systemctl daemon-reload && systemctl start igpu_exporter.service`
-4. Check the status with `systemctl status igpu_exporter.py`
-5. Add the service to run at boot with `systemctl enable igpu_exporter.py`
+4. Check the status with `systemctl status igpu_exporter.service`
+5. Add the service to run at boot with `systemctl enable igpu_exporter.service`
 
 #### Metric End Point data
 ```
